@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.thayer.wotp.AboutActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="174dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textIsSelectable="false"
+        android:editable="false"
+        android:text="On the 13th plane Asmodel, a place of worlds behind worlds, nowhere and everywhere, the twelve gods wage eternal war.  Each commands the strongest of its creations against the choosen of its rivals in hopes of one day ascending. Becoming the one true god of the 13 planes and bringing ruin to those that stand in the way."
+        android:enabled="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/logo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignEnd="@+id/editText" />
+</RelativeLayout>
